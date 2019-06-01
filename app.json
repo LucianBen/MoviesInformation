@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/movie/movie"
+    "pages/movie/movie",
+    "pages/recommend/recommend"
   ],
   "tabBar": {
     "color": "#dddddd",
@@ -15,7 +16,7 @@
         "text": "影院热映"
       },
       {
-        "pagePath": "pages/movie/movie",
+        "pagePath": "pages/recommend/recommend",
         "iconPath": "assets/img/tj-1.png",
         "selectedIconPath": "assets/img/tj.png",
         "text": "电影推荐"
