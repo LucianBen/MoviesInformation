@@ -1,4 +1,4 @@
-var subjectUtil=require("../../utils/subjectUtil.js")
+var subjectUtil = require("../../utils/subjectUtil.js")
 Page({
 
   /**
@@ -25,9 +25,9 @@ Page({
     wx.showLoading({
       title: '加载中...',
       mask: true,
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
     this.loadMovie();
   },
@@ -99,5 +99,9 @@ Page({
       }
     })
 
+  },
+
+  detail: function(e) {
+    getApp().detail(e);
   }
 })

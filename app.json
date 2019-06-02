@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/movie/movie",
-    "pages/recommend/recommend"
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/detail/detail"
   ],
   "tabBar": {
     "color": "#dddddd",
@@ -22,7 +24,7 @@
         "text": "电影推荐"
       },
       {
-        "pagePath": "pages/movie/movie",
+        "pagePath": "pages/search/search",
         "iconPath": "assets/img/search-1.png",
         "selectedIconPath": "assets/img/search.png",
         "text": "查询电影"

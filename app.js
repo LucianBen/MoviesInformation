@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -35,5 +35,18 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  detail: function(e) {
+    
+    // wx.setStorageSync("movieId", e.currentTarget.id);
+    // wx.navigateTo({
+    //   url: '../detail/detail',
+    // })
+
+/**另一种帯值跳转方式 */
+     wx.navigateTo({
+       url: '../detail/detail?id=' + e.currentTarget.id,
+    })
+
   }
 })

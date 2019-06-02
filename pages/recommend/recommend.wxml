@@ -3,6 +3,4 @@
   <import src="../template/movietpl" />
   <template is="movies" data="{{movies}}" />
 
-
-
 </view>
